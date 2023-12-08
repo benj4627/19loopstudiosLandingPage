@@ -64,6 +64,7 @@ main {
     max-width: 380px;
     margin: 0 auto;
 }
+
 .interactiveImage img {
     margin-top: 4rem;
     margin-bottom: var(--largeSpacing);
@@ -91,10 +92,17 @@ main {
     padding-bottom: 3rem;
 }
 
+.creationsImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--largeSpacing);
+}
 .creationsImg p {
     color: white;
     font-size: 3rem;
-    margin-right: 10rem;
+    margin-right: 8rem;
     top: 10%;
     margin-left: 1rem;
 }
@@ -122,7 +130,7 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    min-height: 25vh;
+    min-height: 30vh;
     max-width: 90vw;
 }
 
@@ -133,6 +141,10 @@ main {
     background-size: contain;
     min-height: 25vh;
     max-width: 90vw;
+}
+
+.grid p {
+    margin-right: 10rem;
 }
 
 .above {
