@@ -91,24 +91,85 @@ main {
     padding-bottom: 3rem;
 }
 
-.deepEarth {
-    background: url(../images/mobile/image-deep-earth.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    max-height: 25vh;
-    min-width: 80vw;
-    
-}
-
-.deepEarth p {
+.creationsImg p {
     color: white;
     font-size: 3rem;
     margin-right: 10rem;
     top: 10%;
+    margin-left: 1rem;
 }
 
+.deepEarth {
+    background: url(../images/mobile/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    min-height: 25vh;
+    max-width: 90vw;
+}
 
+.nightArcade {
+    background: url(../images/mobile/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 25vh;
+    max-width: 90vw;
+}
 
+.soccer {
+    background: url(../images/mobile/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 25vh;
+    max-width: 90vw;
+}
+
+.grid {
+    background: url(../images/mobile/image-grid.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 25vh;
+    max-width: 90vw;
+}
+
+.above {
+    background: url(../images/mobile/image-from-above.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 25vh;
+    max-width: 90vw;
+}
+
+.pocket {
+    background: url(../images/mobile/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 25vh;
+    max-width: 90vw;
+}
+
+.curiousity {
+    background: url(../images/mobile/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 25vh;
+    max-width: 90vw;
+}
+
+.fishEye  {
+    background: url(../images/mobile/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 25vh;
+    max-width: 90vw;
+}
 /* 
 # Front-end Style Guide
 
