@@ -29,7 +29,7 @@ h1, h2 {
 /* header and nav */
 header {
     background: url(../images/mobile/image-hero.jpg);
-    height: 100vh;
+    min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,7 +61,7 @@ header {
 
 /* main styling */
 main {
-    max-width: 350px;
+    max-width: 380px;
     margin: 0 auto;
 }
 .interactiveImage img {
@@ -95,8 +95,9 @@ main {
     background: url(../images/mobile/image-deep-earth.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 25vh;
+    max-height: 25vh;
     min-width: 80vw;
+    
 }
 
 .deepEarth p {
