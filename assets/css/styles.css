@@ -112,7 +112,7 @@ main {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
-    max-width: 90vw;
+    width: 90vw; 
 }
 
 .nightArcade {
@@ -121,7 +121,7 @@ main {
     background-position: center;
     background-size: contain;
     min-height: 25vh;
-    min-width: 90vw;
+    min-width: 90vw; 
 }
 
 .soccer {
@@ -129,7 +129,7 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    min-width: 90vw;
+    width: 90vw;
 }
 
 .grid {
@@ -137,12 +137,8 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    min-height: 25vh;
-    min-width: 90vw;
-}
-
-.grid p {
-    margin-right: 10rem;
+    height: 25vh;
+    width: 90vw;
 }
 
 .above {
@@ -150,8 +146,8 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    min-height: 25vh;
-    max-width: 90vw;
+    height: 25vh;
+    width: 90vw;
 }
 
 .pocket {
@@ -159,8 +155,8 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    min-height: 25vh;
-    min-width: 90vw;
+    height: 25vh;
+    width: 90vw;
 }
 
 .curiousity {
@@ -168,8 +164,8 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    min-height: 25vh;
-    max-width: 90vw;
+    height: 25vh;
+    width: 90vw;
 }
 
 .fishEye  {
@@ -177,14 +173,66 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    min-height: 25vh;
-    min-width: 90vw;
+    height: 25vh;
+    width: 90vw; 
+}
+
+.ourCreations {
+    padding-bottom: 8rem;
 }
 
 /* button styling */
-.seeAllBtn {
-    
+.btnContainer {
+    color: black;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.btnContainer a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: .7rem;
+    font-size: 1.6rem;
+}
+
+.seeAllBtn {
+    border: 2px solid black;
+    padding: .6rem 3rem;
+    transition: .3s;
+}
+
+.seeAllBtn:hover {
+    color: white;
+    background-color: black;
+}
+
+
+/* footer */
+footer a {
+    color: white;
+    text-decoration: none;   
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0rem;
+}
+
+footer li {
+    list-style-type: none;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+
 
 /* 
 # Front-end Style Guide
