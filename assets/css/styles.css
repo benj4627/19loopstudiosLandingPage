@@ -97,13 +97,13 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: var(--largeSpacing);
+    gap: var(--stndSpacing);
 }
 .creationsImg p {
     color: white;
     font-size: 3rem;
     margin-right: 8rem;
-    top: 10%;
+    margin-top: 1rem;
     margin-left: 1rem;
 }
 
@@ -112,7 +112,6 @@ main {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
-    min-height: 25vh;
     max-width: 90vw;
 }
 
@@ -122,7 +121,7 @@ main {
     background-position: center;
     background-size: contain;
     min-height: 25vh;
-    max-width: 90vw;
+    min-width: 90vw;
 }
 
 .soccer {
@@ -130,8 +129,7 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    min-height: 30vh;
-    max-width: 90vw;
+    min-width: 90vw;
 }
 
 .grid {
@@ -140,7 +138,7 @@ main {
     background-position: center;
     background-size: contain;
     min-height: 25vh;
-    max-width: 90vw;
+    min-width: 90vw;
 }
 
 .grid p {
@@ -162,7 +160,7 @@ main {
     background-position: center;
     background-size: contain;
     min-height: 25vh;
-    max-width: 90vw;
+    min-width: 90vw;
 }
 
 .curiousity {
@@ -180,8 +178,14 @@ main {
     background-position: center;
     background-size: contain;
     min-height: 25vh;
-    max-width: 90vw;
+    min-width: 90vw;
 }
+
+/* button styling */
+.seeAllBtn {
+    
+}
+
 /* 
 # Front-end Style Guide
 
