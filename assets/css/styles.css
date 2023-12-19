@@ -233,6 +233,20 @@ footer {
     color: white;
 }
 
+.footerSocials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: var(--largeSpacing);
+}
+
+.footerCopyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: var(--largeSpacing);
+}
 
 /* 
 # Front-end Style Guide
